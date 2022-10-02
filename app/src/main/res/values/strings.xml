@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NUMAD22Fa_RahulReddyBaddam</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="enter_link_name">Enter Link Name</string>
+    <string name="name_rahul_reddy_baddam">Name: Rahul Reddy Baddam</string>
+    <string name="email_baddam_ra_northeaster_edu">Email : baddam.ra@northeaster.edu</string>
+    <string name="name">Name</string>
+    <string name="url">URL</string>
+    <string name="about_me">About Me</string>
+    <string name="clicky_clicky">Clicky Clicky</string>
+    <string name="link_collector">Link Collector</string>
 </resources>

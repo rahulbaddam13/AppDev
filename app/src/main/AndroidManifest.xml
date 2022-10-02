@@ -14,6 +14,12 @@
         android:theme="@style/Theme.NUMAD22Fa_RahulReddyBaddam"
         tools:targetApi="31">
         <activity
+            android:name=".LinkCollector"
+            android:exported="false" />
+        <activity
+            android:name=".AboutMee"
+            android:exported="false" />
+        <activity
             android:name=".ClickyClick"
             android:exported="false" />
         <activity

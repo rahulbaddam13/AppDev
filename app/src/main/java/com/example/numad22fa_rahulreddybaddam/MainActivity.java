@@ -11,16 +11,31 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
-
+    private Button aboutMe;
+    private Button LinkCollector;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.button4);
+        aboutMe = (Button) findViewById(R.id.button3);
+        LinkCollector = (Button) findViewById(R.id.LinkCollector);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openClicky();
+            }
+        });
+        aboutMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAboutMe();
+            }
+        });
+        LinkCollector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLinkCollector();
             }
         });
     }
@@ -29,8 +44,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ClickyClick.class);
         startActivity(intent);
     }
-
-    public void ShowMsg(View view) {
-        Toast.makeText(getApplicationContext(), "Name: Rahul Reddy \nEmail: baddam.ra@northeastern.edu", Toast.LENGTH_LONG).show();
+    public void openAboutMe() {
+        Intent intent = new Intent(this, AboutMee.class);
+        startActivity(intent);
+    }
+    public void openLinkCollector() {
+        Intent intent = new Intent(this, LinkCollector.class);
+        startActivity(intent);
     }
 }

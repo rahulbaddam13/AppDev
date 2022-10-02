@@ -4,8 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rahul/.gradle/caches/transforms-3/083bd3f816816850587c63c88084f85c/transformed/material-1.4.0/res/layout-sw600dp-v13/design_layout_snackbar.xml" value="0.233203125" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_about_me.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_about_mee.xml" value="0.22" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_clicky_click.xml" value="0.22" />
-        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_link_collector.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_link_collector2.xml" value="0.2171875" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/fragment_link_collector_dialog.xml" value="0.2171875" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/link_collector_item.xml" value="0.2171875" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/link_item_card.xml" value="0.2171875" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rahul.xml" value="0.1" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rahul_round.xml" value="0.1" />
