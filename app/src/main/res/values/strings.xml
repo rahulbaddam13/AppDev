@@ -9,4 +9,7 @@
     <string name="about_me">About Me</string>
     <string name="clicky_clicky">Clicky Clicky</string>
     <string name="link_collector">Link Collector</string>
+    <string name="prime_directive">Prime Directive</string>
+    <string name="terminate">Terminate</string>
+    <string name="find_prime">Find Prime</string>
 </resources>
