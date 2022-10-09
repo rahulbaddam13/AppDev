@@ -1,5 +1,6 @@
 package com.example.numad22fa_rahulreddybaddam;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,12 +16,13 @@ public class PrimeDirective extends AppCompatActivity {
 
     Button b;
     Button but;
-    int max = 5000;
+    int max = 50000;
     TextView vTextView;
     TextView tv;
     private Handler handler = new Handler();
     int j = 3;
     boolean isTerminated = false;
+    boolean isRunning = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -30,8 +32,8 @@ public class PrimeDirective extends AppCompatActivity {
         but = (Button) findViewById(R.id.Terminate);
         vTextView = (TextView) findViewById(R.id.PrimeTextView);
         tv = (TextView) findViewById(R.id.RunningView);
-
     }
+
 
     @Override
     public void onBackPressed() {
@@ -62,12 +64,15 @@ public class PrimeDirective extends AppCompatActivity {
 
     public void runOnRunnableThread(View view) {
         isTerminated = false;
+        isRunning = true;
         runnableThread runnableThread = new runnableThread();
         new Thread(runnableThread).start();
+
     }
 
     public void terminateThread(View view) {
         isTerminated = true;
+        isRunning = false;
 }
     class runnableThread implements Runnable {
 
@@ -75,31 +80,36 @@ public class PrimeDirective extends AppCompatActivity {
         @Override
         public void run() {
 
-            final int[] z = {3};
-            for (int i = j; i <= max; i++) {
+            if (isRunning) {
+                isRunning = false;
+                final int[] z = {3};
+                for (int i = j; i <= max; i++) {
 
-                if (isTerminated) {
-                    tv.setText("Latest Prime " + z[0]);
-                    return;
-                }
-                int finalI = i;
-                handler.post(new Runnable() {
-                    @SuppressLint("SetTextI18n")
-                    @Override
-                    public void run() {
-                        vTextView.setText("Current Number Searching " + finalI);
-                        if (isPrime(finalI)) {
-                            vTextView.setText("Prime Number Found " + finalI);
-                            z[0] = finalI;
-                            j= finalI +1;
-                        }
+                    if (isTerminated) {
+                        tv.setText("Latest Prime " + z[0]);
+                        return;
                     }
-                });
 
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    int finalI = i;
+                    handler.post(new Runnable() {
+                        @SuppressLint("SetTextI18n")
+                        @Override
+                        public void run() {
+                            vTextView.setText("Current Number Searching " + finalI);
+                            if (isPrime(finalI)) {
+                                vTextView.setText("Prime Number Found " + finalI);
+                                z[0] = finalI;
+                                j = finalI + 2;
+                            }
+                        }
+                    });
+
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    i++;
                 }
             }
         }
