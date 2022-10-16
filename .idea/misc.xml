@@ -7,8 +7,12 @@
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_about_me.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_about_mee.xml" value="0.22" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_clicky_click.xml" value="0.22" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_gps_loc.xml" value="0.22" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_link_collector.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_link_collector2.xml" value="0.2171875" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_location_conf.xml" value="0.184375" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_location_new.xml" value="0.22" />
+        <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_locator.xml" value="0.2015625" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_main.xml" value="0.18947368421052632" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_prime_directive.xml" value="0.22" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/layout/activity_test.xml" value="0.1" />
@@ -22,6 +26,7 @@
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rb.xml" value="0.1" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_rb_round.xml" value="0.1" />
         <entry key="..\:/Users/rahul/AndroidStudioProjects/NUMAD22Fa_RahulReddyBaddam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/rahul/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/auto_complete_list.xml" value="0.1375" />
       </map>
     </option>
   </component>
